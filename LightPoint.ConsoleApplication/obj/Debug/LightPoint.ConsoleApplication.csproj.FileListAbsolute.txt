@@ -1,0 +1,6 @@
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.ConsoleApplication.exe.config
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.ConsoleApplication.exe
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.ConsoleApplication.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\obj\Debug\LightPoint.ConsoleApplication.csprojResolveAssemblyReference.cache
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\obj\Debug\LightPoint.ConsoleApplication.exe
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\obj\Debug\LightPoint.ConsoleApplication.pdb

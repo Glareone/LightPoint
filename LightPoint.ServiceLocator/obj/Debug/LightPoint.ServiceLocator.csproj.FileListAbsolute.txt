@@ -1,0 +1,5 @@
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ServiceLocator\bin\Debug\LightPoint.ServiceLocator.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ServiceLocator\bin\Debug\LightPoint.ServiceLocator.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ServiceLocator\obj\Debug\LightPoint.ServiceLocator.csprojResolveAssemblyReference.cache
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ServiceLocator\obj\Debug\LightPoint.ServiceLocator.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ServiceLocator\obj\Debug\LightPoint.ServiceLocator.pdb

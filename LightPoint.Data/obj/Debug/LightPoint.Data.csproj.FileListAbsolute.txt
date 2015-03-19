@@ -1,0 +1,5 @@
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data\bin\Debug\LightPoint.Data.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data\bin\Debug\LightPoint.Data.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data\obj\Debug\LightPoint.Data.csprojResolveAssemblyReference.cache
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data\obj\Debug\LightPoint.Data.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data\obj\Debug\LightPoint.Data.pdb
