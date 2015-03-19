@@ -1,9 +1,5 @@
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\bin\Debug\LightPoint.SQLDataBase.dacpac
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\bin\Debug\LightPoint.SQLDataBase.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\bin\Debug\LightPoint.SQLDataBase.pdb
-D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\obj\Debug\Model.xml
-D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\obj\Debug\refactor.xml
-D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\obj\Debug\postdeploy.sql
-D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\obj\Debug\predeploy.sql
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\obj\Debug\LightPoint.SQLDataBase.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.SQLDataBase\obj\Debug\LightPoint.SQLDataBase.pdb
