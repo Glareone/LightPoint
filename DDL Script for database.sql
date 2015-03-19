@@ -39,7 +39,8 @@ IF (NOT EXISTS (SELECT *
 BEGIN
 	CREATE TABLE dbo.Goods
 	(
-		Id INT IDENTITY(1,1),
+		Id INT IDENTITY(1,1) PRIMARY KEY,
+		ShopId INT FOREIGN KEY REFERENCES dbo.Shop(Id),
 		Name NVARCHAR(100) NOT NULL,
 		Description NVARCHAR(100)
 	)
@@ -51,3 +52,5 @@ BEGIN
 	PRINT 'Table Goods Truncated';
 END
 GO
+
+-- DROP TABLE dbo.Goods
