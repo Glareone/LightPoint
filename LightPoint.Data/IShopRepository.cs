@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LightPoint.Data
 {
-    interface IShopRepository
+    public interface IShopRepository
     {
     }
 }

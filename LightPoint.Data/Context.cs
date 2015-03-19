@@ -25,3 +25,4 @@ namespace LightPoint.Data
         /// </summary>
         public IRepositoryFactory RepositoryFactory { get; set; }
     }
+}

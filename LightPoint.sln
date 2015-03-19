@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPoint.Data.SQL", "Ligh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPoint.UnitOfWork", "LightPoint.UnitOfWork\LightPoint.UnitOfWork.csproj", "{D32A8134-9798-40CC-8AB7-60125575F8D5}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LightPoint.SQLDataBase", "LightPoint.SQLDataBase\LightPoint.SQLDataBase.sqlproj", "{F410CCE5-6B8C-435B-98DA-1655F5346620}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,12 +51,6 @@ Global
 		{D32A8134-9798-40CC-8AB7-60125575F8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32A8134-9798-40CC-8AB7-60125575F8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32A8134-9798-40CC-8AB7-60125575F8D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F410CCE5-6B8C-435B-98DA-1655F5346620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F410CCE5-6B8C-435B-98DA-1655F5346620}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F410CCE5-6B8C-435B-98DA-1655F5346620}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F410CCE5-6B8C-435B-98DA-1655F5346620}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F410CCE5-6B8C-435B-98DA-1655F5346620}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F410CCE5-6B8C-435B-98DA-1655F5346620}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

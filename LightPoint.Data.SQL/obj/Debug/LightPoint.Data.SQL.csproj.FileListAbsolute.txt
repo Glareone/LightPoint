@@ -3,3 +3,8 @@ D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightP
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\obj\Debug\LightPoint.Data.SQL.csprojResolveAssemblyReference.cache
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\obj\Debug\LightPoint.Data.SQL.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\obj\Debug\LightPoint.Data.SQL.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.Data.SQL.dll.config
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\EntityFramework.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\EntityFramework.xml
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\EntityFramework.SqlServer.xml
