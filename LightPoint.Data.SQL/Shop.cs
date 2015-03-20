@@ -16,7 +16,7 @@ namespace LightPoint.Data.SQL
     {
         public Shop()
         {
-            this.Goods = new HashSet<Good>();
+            this.Goods = new HashSet<Goods>();
         }
     
         public int Id { get; set; }
@@ -25,6 +25,6 @@ namespace LightPoint.Data.SQL
         public System.TimeSpan WorkStartTime { get; set; }
         public System.TimeSpan WorkEndTime { get; set; }
     
-        public virtual ICollection<Good> Goods { get; set; }
+        public virtual ICollection<Goods> Goods { get; set; }
     }
 }

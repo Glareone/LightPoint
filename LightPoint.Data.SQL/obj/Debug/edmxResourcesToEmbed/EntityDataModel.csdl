@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="LightPointModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="Good">
+  <EntityType Name="Goods">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
@@ -23,7 +23,7 @@
   </EntityType>
   <Association Name="FK__Goods__ShopId__1367E606">
     <End Role="Shop" Type="Self.Shop" Multiplicity="0..1" />
-    <End Role="Goods" Type="Self.Good" Multiplicity="*" />
+    <End Role="Goods" Type="Self.Goods" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Shop">
         <PropertyRef Name="Id" />
@@ -34,10 +34,10 @@
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="LightPointEntitiesContext" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Goods" EntityType="Self.Good" />
-    <EntitySet Name="Shops" EntityType="Self.Shop" />
+    <EntitySet Name="Goods" EntityType="Self.Goods" />
+    <EntitySet Name="Shop" EntityType="Self.Shop" />
     <AssociationSet Name="FK__Goods__ShopId__1367E606" Association="Self.FK__Goods__ShopId__1367E606">
-      <End Role="Shop" EntitySet="Shops" />
+      <End Role="Shop" EntitySet="Shop" />
       <End Role="Goods" EntitySet="Goods" />
     </AssociationSet>
   </EntityContainer>

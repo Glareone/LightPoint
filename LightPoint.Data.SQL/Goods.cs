@@ -12,7 +12,7 @@ namespace LightPoint.Data.SQL
     using System;
     using System.Collections.Generic;
     
-    public partial class Good
+    public partial class Goods
     {
         public int Id { get; set; }
         public Nullable<int> ShopId { get; set; }

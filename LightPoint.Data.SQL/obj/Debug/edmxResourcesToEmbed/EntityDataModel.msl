@@ -2,7 +2,7 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="LightPointModelStoreContainer" CdmEntityContainer="LightPointEntitiesContext">
     <EntitySetMapping Name="Goods">
-      <EntityTypeMapping TypeName="LightPointModel.Good">
+      <EntityTypeMapping TypeName="LightPointModel.Goods">
         <MappingFragment StoreEntitySet="Goods">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="ShopId" ColumnName="ShopId" />
@@ -11,7 +11,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Shops">
+    <EntitySetMapping Name="Shop">
       <EntityTypeMapping TypeName="LightPointModel.Shop">
         <MappingFragment StoreEntitySet="Shop">
           <ScalarProperty Name="Id" ColumnName="Id" />

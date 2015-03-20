@@ -25,7 +25,7 @@ namespace LightPoint.Data.SQL
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Good> Goods { get; set; }
-        public virtual DbSet<Shop> Shops { get; set; }
+        public virtual DbSet<Goods> Goods { get; set; }
+        public virtual DbSet<Shop> Shop { get; set; }
     }
 }

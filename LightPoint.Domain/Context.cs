@@ -1,4 +1,4 @@
-﻿
+﻿using LightPoint.Domain.Services;
 
 namespace LightPoint.Domain
 {
@@ -19,8 +19,10 @@ namespace LightPoint.Domain
         /// <summary>
         /// Gets current <see cref="IUserService"/>
         /// </summary>
-        public IShopService UserService { get; set; }
-        public IGoodsService BikeService { get; set; }
+        public IShopService ShopService { get; set; }
+
+
+        public IGoodsService GoodsService { get; set; }
 
     }
 }

@@ -4,8 +4,8 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="44101afc767a44929e14720c2b04b6ab" Name="Diagram1">
-        <EntityTypeShape EntityType="LightPointModel.Good" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+      <Diagram DiagramId="71ee065276764b4b96551abdced54b00" Name="Diagram1">
+        <EntityTypeShape EntityType="LightPointModel.Goods" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="LightPointModel.Shop" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
         <AssociationConnector Association="LightPointModel.FK__Goods__ShopId__1367E606" ManuallyRouted="false" />
       </Diagram>

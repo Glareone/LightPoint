@@ -49,7 +49,7 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="LightPointModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="Good">
+        <EntityType Name="Goods">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
@@ -72,7 +72,7 @@
         </EntityType>
         <Association Name="FK__Goods__ShopId__1367E606">
           <End Role="Shop" Type="Self.Shop" Multiplicity="0..1" />
-          <End Role="Goods" Type="Self.Good" Multiplicity="*" />
+          <End Role="Goods" Type="Self.Goods" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Shop">
               <PropertyRef Name="Id" />
@@ -83,10 +83,10 @@
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="LightPointEntitiesContext" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Goods" EntityType="Self.Good" />
-          <EntitySet Name="Shops" EntityType="Self.Shop" />
+          <EntitySet Name="Goods" EntityType="Self.Goods" />
+          <EntitySet Name="Shop" EntityType="Self.Shop" />
           <AssociationSet Name="FK__Goods__ShopId__1367E606" Association="Self.FK__Goods__ShopId__1367E606">
-            <End Role="Shop" EntitySet="Shops" />
+            <End Role="Shop" EntitySet="Shop" />
             <End Role="Goods" EntitySet="Goods" />
           </AssociationSet>
         </EntityContainer>
@@ -97,7 +97,7 @@
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="LightPointModelStoreContainer" CdmEntityContainer="LightPointEntitiesContext">
           <EntitySetMapping Name="Goods">
-            <EntityTypeMapping TypeName="LightPointModel.Good">
+            <EntityTypeMapping TypeName="LightPointModel.Goods">
               <MappingFragment StoreEntitySet="Goods">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="ShopId" ColumnName="ShopId" />
@@ -106,7 +106,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Shops">
+          <EntitySetMapping Name="Shop">
             <EntityTypeMapping TypeName="LightPointModel.Shop">
               <MappingFragment StoreEntitySet="Shop">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -131,7 +131,7 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
