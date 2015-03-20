@@ -247,6 +247,32 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LightPoint.Data.SQL\LightPoint.Data.SQL.csproj">
+      <Project>{c25b4de6-303f-4f17-9899-5fe9e30e447b}</Project>
+      <Name>LightPoint.Data.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LightPoint.Data\LightPoint.Data.csproj">
+      <Project>{6355b664-52bc-413a-9bb4-20b290fe1ba8}</Project>
+      <Name>LightPoint.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LightPoint.Domain\LightPoint.Domain.csproj">
+      <Project>{412e04fe-d172-4f00-9973-23d307aa5180}</Project>
+      <Name>LightPoint.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LightPoint.ServiceLocator\LightPoint.ServiceLocator.csproj">
+      <Project>{d1e8a79f-ffdb-4db5-ab64-7aeeb65e3671}</Project>
+      <Name>LightPoint.ServiceLocator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LightPoint.Service\LightPoint.Service.csproj">
+      <Project>{4006cea4-cbdb-4cd3-baf1-cca08290438b}</Project>
+      <Name>LightPoint.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LightPoint.UnitOfWork\LightPoint.UnitOfWork.csproj">
+      <Project>{d32a8134-9798-40cc-8ab7-60125575f8d5}</Project>
+      <Name>LightPoint.UnitOfWork</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

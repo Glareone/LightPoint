@@ -12,3 +12,5 @@ D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightP
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.Domain.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.Data.pdb
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.Domain.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.UnitOfWork.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.UnitOfWork.pdb

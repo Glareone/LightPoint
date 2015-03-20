@@ -7,7 +7,7 @@ namespace LightPoint.Data.SQL.SQLSystemUnitOfWork
     {
         public IUnitOfWork Create()
         {
-            return new SQLSystemDatabaseUnitOfWork(this);
+            return new SQLSystemDatabaseUnitOfWork();
         }
     }
 }
