@@ -45,6 +45,12 @@
     <Compile Include="IShopRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LightPoint.Domain\LightPoint.Domain.csproj">
+      <Project>{412E04FE-D172-4F00-9973-23D307AA5180}</Project>
+      <Name>LightPoint.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

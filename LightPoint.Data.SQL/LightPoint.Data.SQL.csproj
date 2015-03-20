@@ -48,7 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="GoodsRepository.cs" />
+    <Compile Include="RepositoryFactory.cs" />
     <Compile Include="EntityDataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -71,6 +72,10 @@
     <Compile Include="Shop.cs">
       <DependentUpon>EntityDataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="ShopRepository.cs" />
+    <Compile Include="SQLSystemUnitOfWork\ISQLUnitOfWork.cs" />
+    <Compile Include="SQLSystemUnitOfWork\SQLSystemDatabaseUnitOfWork.cs" />
+    <Compile Include="SQLSystemUnitOfWork\SQLSystemDatabaseUnitofWorkFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
@@ -95,6 +100,20 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LightPoint.Data\LightPoint.Data.csproj">
+      <Project>{6355B664-52BC-413A-9BB4-20B290FE1BA8}</Project>
+      <Name>LightPoint.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LightPoint.Domain\LightPoint.Domain.csproj">
+      <Project>{412e04fe-d172-4f00-9973-23d307aa5180}</Project>
+      <Name>LightPoint.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LightPoint.UnitOfWork\LightPoint.UnitOfWork.csproj">
+      <Project>{d32a8134-9798-40cc-8ab7-60125575f8d5}</Project>
+      <Name>LightPoint.UnitOfWork</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

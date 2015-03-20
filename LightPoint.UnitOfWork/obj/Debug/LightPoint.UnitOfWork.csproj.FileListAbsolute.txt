@@ -5,3 +5,5 @@ D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\obj\Debug\Ligh
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\obj\Debug\LightPoint.UnitOfWork.pdb
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.Data.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.Data.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.Domain.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.Domain.pdb

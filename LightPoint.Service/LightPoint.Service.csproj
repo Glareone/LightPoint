@@ -39,7 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GoodsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShopService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LightPoint.Domain\LightPoint.Domain.csproj">
+      <Project>{412e04fe-d172-4f00-9973-23d307aa5180}</Project>
+      <Name>LightPoint.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

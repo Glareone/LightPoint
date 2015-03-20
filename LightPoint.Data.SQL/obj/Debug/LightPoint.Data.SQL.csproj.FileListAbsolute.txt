@@ -7,3 +7,8 @@ D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\Entity
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\EntityFramework.SqlServer.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\EntityFramework.xml
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\obj\Debug\LightPoint.Data.SQL.csprojResolveAssemblyReference.cache
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.Data.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.Domain.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.Data.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Data.SQL\bin\Debug\LightPoint.Domain.pdb

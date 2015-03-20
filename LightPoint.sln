@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPoint.Data.SQL", "Ligh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPoint.UnitOfWork", "LightPoint.UnitOfWork\LightPoint.UnitOfWork.csproj", "{D32A8134-9798-40CC-8AB7-60125575F8D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPoint.ASPMVC", "LightPoint.ASPMVC\LightPoint.ASPMVC.csproj", "{BC805A6A-5243-40F4-82A2-5609F938C762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D32A8134-9798-40CC-8AB7-60125575F8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32A8134-9798-40CC-8AB7-60125575F8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32A8134-9798-40CC-8AB7-60125575F8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC805A6A-5243-40F4-82A2-5609F938C762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC805A6A-5243-40F4-82A2-5609F938C762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC805A6A-5243-40F4-82A2-5609F938C762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC805A6A-5243-40F4-82A2-5609F938C762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

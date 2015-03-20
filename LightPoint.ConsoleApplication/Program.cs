@@ -33,8 +33,6 @@ namespace LightPoint.ConsoleApplication
 
             UnitOfWork.Context.Current.UnitOfWorkFactory = new Data.SQL.SQLSystemUnitOfWork.SQLSystemDatabaseUnitofWorkFactory();
 
-
-
         }
     }
 }
