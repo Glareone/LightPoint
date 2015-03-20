@@ -9,6 +9,34 @@
 </div>
 
 
+@* Пример аджакса
+
+    var ViewModel = function () {
+
+        var self = this;
+        self.nomenclatures = ko.observableArray();
+        function getNomenclatures() {
+            ajaxHelper(nomenclaturesUri, 'GET').done(function (data) {
+                self.nomenclatures(data);
+            });
+        }
+        function ajaxHelper(uri, method, data) {
+            self.error(''); // Clear error message
+            return $.ajax({
+                type: method,
+                url: uri,
+                dataType: 'json',
+                contentType: 'application/json',
+                data: data ? JSON.stringify(data) : null
+            }).fail(function (jqXHR, textStatus, errorThrown) {
+                self.error(errorThrown);
+            });
+        }*@
+
+
+
+
+
 @*<div class="jumbotron">
         <h1>ASP.NET</h1>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
