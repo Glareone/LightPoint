@@ -1,15 +1,24 @@
 ﻿
 using System.Collections.Generic;
 using LightPoint.Domain.Entities;
+using LightPoint.Domain.Services;
 
 namespace LightPoint.Service
 {
-    public class ShopService
+    using System;
+
+    public class ShopService : IShopService
     {
-        List<Shop> FindAllShops()
+        public List<Shop> FindAllShops()
         {
-            //TODO
-            return new List<Shop>();
+            var shops = Data.Context.Current.RepositoryFactory.GetShopRepository().FindAllShops();
+            
+            if (shops == null)
+            {
+                throw new InvalidOperationException("Shop do not exist in database");
+            }
+
+            return shops;
         }
     }
 }

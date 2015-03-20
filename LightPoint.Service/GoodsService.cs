@@ -1,20 +1,28 @@
 ﻿using LightPoint.Domain.Entities;
 using System.Collections.Generic;
+using LightPoint.Domain.Services;
 
 namespace LightPoint.Service
 {
-    public class GoodsService
+    using System;
+
+    public class GoodsService : IGoodsService
     {
-        List<Goods> GetAllGoodsByShopId(int shopid)
+        public List<Goods> GetAllGoodsByShopId(int shopid)
         {
-            //TODO
-            return new List<Goods>();
+            return Data.Context.Current.RepositoryFactory.GetGoodsRepository().GetAllGoodsByShopId(shopid);
         }
 
-        List<Goods> GetAllGoods()
+        public List<Goods> GetAllGoods()
         {
-            //TODO
-            return new List<Goods>();
+            var goods = Data.Context.Current.RepositoryFactory.GetGoodsRepository().GetAllGoods();
+
+            if (goods == null)
+            {
+                throw new Exception("goods is not exist in database");
+            }
+
+            return goods;
         }
     }
 }
