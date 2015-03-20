@@ -1,41 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.SqlClient;
+﻿
+using System.Data.Entity;
 
 namespace LightPoint.Data.SQL.SQLSystemUnitOfWork
 {
-    class SQLSystemDatabaseUnitOfWork : ISQLUnitOfWork
-    {
-        /// <summary>
-        /// Connection string to SQL database
-        /// </summary>
-        private SqlConnection connection;
 
-        public SqlConnection Connection
+
+    public class SQLSystemDatabaseUnitOfWork : ISQLUnitOfWork
+    {
+        private DbContext myDbContext;
+
+        public DbContext MYDbContext
         {
             get
             {
-                return connection;
+                return myDbContext;
             }
         }
+
         /// Constructor
         /// </summary>
         /// <param name="unitofworkfactory"></param>
         public SQLSystemDatabaseUnitOfWork(SQLSystemDatabaseUnitofWorkFactory unitofworkfactory)
         {
-            connection = new SqlConnection("Data Source=KOLESNIKOV7;Initial Catalog=Training.Workshop.SQLDatabase;Integrated Security=True;");
-            connection.Open();
+            myDbContext = new LightPointEntitiesContext();
         }
         /// <summary>
         /// Free all resources and close current Unit of Work.
         /// </summary>
         public void Dispose()
         {
-            connection.Close();
-            LightPoint.UnitOfWork.UnitOfWork.DisposeUnitOfWork(this);
+            myDbContext.Dispose();
+            //TODO
+            //rework
+            UnitOfWork.UnitOfWork.DisposeUnitOfWork(this);
         }
     }
 }
