@@ -10,6 +10,8 @@ namespace LightPoint.ASPMVC.Controllers
     {
         public ActionResult Index()
         {
+            
+
             return View();
         }
 
