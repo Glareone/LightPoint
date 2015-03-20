@@ -4,3 +4,17 @@ D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\De
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\obj\Debug\LightPoint.ConsoleApplication.csprojResolveAssemblyReference.cache
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\obj\Debug\LightPoint.ConsoleApplication.exe
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\obj\Debug\LightPoint.ConsoleApplication.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.Data.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.Data.SQL.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.Domain.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.Service.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.ServiceLocator.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.UnitOfWork.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\EntityFramework.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.Data.SQL.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.Data.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.Domain.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.ServiceLocator.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.Service.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\LightPoint.UnitOfWork.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ConsoleApplication\bin\Debug\EntityFramework.xml

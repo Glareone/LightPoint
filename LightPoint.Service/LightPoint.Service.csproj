@@ -44,6 +44,10 @@
     <Compile Include="ShopService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LightPoint.Data\LightPoint.Data.csproj">
+      <Project>{6355b664-52bc-413a-9bb4-20b290fe1ba8}</Project>
+      <Name>LightPoint.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LightPoint.Domain\LightPoint.Domain.csproj">
       <Project>{412e04fe-d172-4f00-9973-23d307aa5180}</Project>
       <Name>LightPoint.Domain</Name>

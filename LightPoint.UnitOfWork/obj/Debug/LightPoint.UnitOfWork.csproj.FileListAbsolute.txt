@@ -7,3 +7,5 @@ D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\Ligh
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.Data.pdb
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.Domain.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.Domain.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.ServiceLocator.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.UnitOfWork\bin\Debug\LightPoint.ServiceLocator.pdb

@@ -59,3 +59,15 @@ D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\Microsoft.Owin
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\obj\Debug\LightPoint.ASPMVC.csprojResolveAssemblyReference.cache
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\obj\Debug\LightPoint.ASPMVC.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\obj\Debug\LightPoint.ASPMVC.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.Data.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.Data.SQL.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.Domain.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.Service.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.ServiceLocator.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.UnitOfWork.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.Data.SQL.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.Data.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.Domain.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.ServiceLocator.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.Service.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.ASPMVC\bin\LightPoint.UnitOfWork.pdb

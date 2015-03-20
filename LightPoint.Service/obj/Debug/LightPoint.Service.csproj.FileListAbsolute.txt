@@ -5,3 +5,7 @@ D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Service\obj\Debug\LightPo
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Service\bin\Debug\LightPoint.Domain.dll
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Service\bin\Debug\LightPoint.Domain.pdb
 D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Service\obj\Debug\LightPoint.Service.csprojResolveAssemblyReference.cache
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Service\bin\Debug\LightPoint.Data.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Service\bin\Debug\LightPoint.ServiceLocator.dll
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Service\bin\Debug\LightPoint.Data.pdb
+D:\Myproject_git\LightPointTask1\LightPoint\LightPoint.Service\bin\Debug\LightPoint.ServiceLocator.pdb
