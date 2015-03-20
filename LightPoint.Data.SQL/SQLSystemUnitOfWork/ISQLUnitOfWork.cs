@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LightPoint.Data.SQL
+namespace LightPoint.Data.SQL.SQLSystemUnitOfWork
 {
-    public class Class1
+    interface ISQLUnitOfWork
     {
     }
 }

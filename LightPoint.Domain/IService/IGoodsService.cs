@@ -1,8 +1,13 @@
-﻿
+﻿using LightPoint.Domain.Entities;
+
 namespace LightPoint.Domain.Services
 {
+    using System.Collections.Generic;
+
     public interface IGoodsService
     {
-        // create delete find by name or by shop
+        List<Goods> GetAllGoodsByShopId(int shopid);
+
+        List<Goods> GetAllGoods(); 
     }
 }

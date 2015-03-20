@@ -9,6 +9,8 @@ using LightPoint.Domain.Services;
 
 namespace LightPoint.ConsoleApplication
 {
+    using ServiceLocator = LightPoint.ServiceLocator.ServiceLocator;
+
     class Program
     {
         static void Main(string[] args)
